@@ -13,14 +13,14 @@ import PropTypes from "prop-types";
  * Home background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/server-wall.jpg";
+import image from "../images/background-home.jpg";
 
 const imageAltText = "woman holding laptop standing by server room with glass wall";
 
@@ -33,7 +33,9 @@ const Home = ({ name, title }) => {
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "8rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        <a href="#about">
+          <img src={arrowSvg} style={{ height: "3rem", width: "3rem"}} alt={imageAltText} />
+        </a>
       </div>
     </section>
   );
