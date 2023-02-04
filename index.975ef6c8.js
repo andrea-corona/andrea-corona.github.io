@@ -28758,7 +28758,7 @@ var _aiPng = require("../images/ai.png");
 var _aiPngDefault = parcelHelpers.interopDefault(_aiPng);
 var _card = require("./Card");
 var _cardDefault = parcelHelpers.interopDefault(_card);
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with computer";
 /**
  * Project list
  *
