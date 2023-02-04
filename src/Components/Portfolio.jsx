@@ -23,7 +23,7 @@ import image from "../images/background-portfolio.jpg";
 import img1 from "../images/ai.png";
 import ProjectCard from "./Card";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with computer";
 
 /**
  * Project list
