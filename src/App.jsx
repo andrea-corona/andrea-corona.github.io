@@ -28,7 +28,7 @@ const siteProps = {
   title: "AI Engineer",
   email: "coronaarroyo@hotmail.com",
   gitHub: "andrea-corona",
-  instagram: "andycorona04",
+  instagram: "",
   linkedIn: "andrea-corona04",
   medium: "",
   twitter: "",
