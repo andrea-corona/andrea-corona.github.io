@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://andrea-corona.github.io/andrea-corona.github.io",
+  "homepage": "https://andrea-corona.github.io/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://andrea-corona.github.io/andrea-corona.github.io'",
+    "build-gh": "parcel build --public-url 'https://andrea-corona.github.io/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
