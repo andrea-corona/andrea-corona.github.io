@@ -34,8 +34,13 @@ const skillsList = [
   "Python",
   "C++",
   "React",
-  "Java",
+  "Angular",
+  "SwiftUI",
+  "HTML",
+  "CSS",
+  "MySQL"
 ];
+
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -45,6 +50,11 @@ const skillsList = [
 const detailOrQuote =
   "I am passionate about solving problems through AI/ML. By leveraging my AI experience I continually look for new and better ways to safe our world.";
 
+const interests =
+  ["I'd like to work on applying machine learning algorithms to solve environmental problems.",
+  "I'm interested in analyzing satellite data to track environmental changes and predict future trends."
+]
+  
 const About = () => {
   return (
     <section className="light" id="about">
@@ -75,6 +85,8 @@ const About = () => {
           ))}
         </ul>
         <hr />
+        <p style={{ padding: "1rem 3rem 0" }}>{interests[0]}</p>
+        <p style={{ padding: "1rem 3rem 0" }}>{interests[1]}</p>
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
