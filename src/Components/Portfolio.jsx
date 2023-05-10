@@ -37,7 +37,7 @@ const projectList = [
   {
     title: "Traffic Simulation",
     description:
-      "Creation of an agent-based model using Mesa framework in Python that allows traffic light coordination to reduce congestion at a vehicular crossing. Implementation of a 3D simulation in Unity to visualize the agents-based model",
+      "Creation of an agent-based model using Mesa framework in Python that allows traffic light coordination to reduce congestion at a vehicular crossing. Implementation of a 3D simulation in Unity to visualize the agents-based model. Both applications were connected through a Flask server run on a IBM Cloud.",
     url: "https://github.com/andrea-corona/examples-multiagents",
     img: traffic,
     imageAltText: "Azure",
